@@ -57,6 +57,28 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        ieee: {
+          blue: "hsl(var(--ieee-blue))",
+          "blue-light": "hsl(var(--ieee-blue-light))",
+          "blue-dark": "hsl(var(--ieee-blue-dark))",
+          navy: "hsl(var(--ieee-navy))",
+          gold: "hsl(var(--ieee-gold))",
+        },
+      },
+      boxShadow: {
+        'ieee-sm': 'var(--shadow-sm)',
+        'ieee-md': 'var(--shadow-md)',
+        'ieee-lg': 'var(--shadow-lg)',
+        'ieee-glow': 'var(--shadow-glow)',
+      },
+      backgroundImage: {
+        'gradient-ieee': 'var(--gradient-ieee)',
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-card': 'var(--gradient-card)',
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Poppins', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
