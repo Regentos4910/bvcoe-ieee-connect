@@ -1,73 +1,41 @@
-# Welcome to your Lovable project
+#IEEE Connect – BVCOE
 
-## Project info
+A responsive web application / frontend project for the IEEE BVCOE Connect platform.
+This repository hosts the codebase that powers the UI and core frontend logic of the project.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+##Project Overview
 
-## How can I edit this code?
+IEEE Connect – BVCOE is a frontend application built to help the IEEE community at Bharati Vidyapeeth College of Engineering (BVCOE) connect, collaborate, and stay updated with all IEEE-related events, resources, and announcements.
 
-There are several ways of editing your application.
+This web app is built using modern frontend technologies to deliver a fast and smooth user experience.
 
-**Use Lovable**
+##Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This project uses the following technologies:
 
-Changes made via Lovable will be committed automatically to this repo.
+⚡ Vite – Fast development tooling
 
-**Use your preferred IDE**
+🧠 TypeScript – Typed JavaScript superset
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+⚛️ React – UI library for building components
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🎨 Tailwind CSS – Utility-first CSS framework
 
-Follow these steps:
+💻 Other configuration files (ESLint, Vitest) included for quality & testing support
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+##Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+To set up the project locally, follow these steps:
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Clone the repository
+git clone https://github.com/Regentos4910/bvcoe-ieee-connect.git
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Navigate to project folder
+cd bvcoe-ieee-connect
+
+### Install dependencies
+npm install
+
+### Run project locally
 npm run dev
-```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
