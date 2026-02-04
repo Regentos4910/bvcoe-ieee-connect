@@ -26,16 +26,16 @@ This project uses the following technologies:
 ## Installation
 
 To set up the project locally, follow these steps:
-
-### Clone the repository
+```
+**Clone the repository**
 git clone https://github.com/Regentos4910/bvcoe-ieee-connect.git
 
-### Navigate to project folder
+**Navigate to project folder**
 cd bvcoe-ieee-connect
 
-### Install dependencies
+**Install dependencies**
 npm install
 
-### Run project locally
+**Run project locally**
 npm run dev
-
+```
