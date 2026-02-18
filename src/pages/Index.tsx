@@ -58,7 +58,8 @@ const Index = () => {
         subtitle="Bharati Vidyapeeth College of Engineering"
         description="Advancing Technology for the Benefit of Humanity. Join us in shaping the future through innovation, collaboration, and technical excellence."
         primaryAction={{ label: "Student Branch", path: "/student-branch" }}
-        secondaryAction={{ label: "CIS Chapter", path: "/cis-branch" }}
+        secondaryAction={{ label: "Explore Chapters", path: "/chapters" }}
+
         stats={[
           { icon: <Users className="w-6 h-6" />, value: "200+", label: "Active Members" },
           { icon: <Award className="w-6 h-6" />, value: "50+", label: "Events Hosted" },

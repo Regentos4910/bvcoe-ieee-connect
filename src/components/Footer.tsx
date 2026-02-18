@@ -41,6 +41,21 @@ const Footer = () => {
                   CIS Chapter
                 </Link>
               </li>
+              <li>
+                <Link to="/ias-branch" className="text-primary-foreground/70 hover:text-ieee-blue-light transition-colors text-sm">
+                  IAS Chapter
+                </Link>
+              </li>
+              <li>
+                <Link to="/embs-branch" className="text-primary-foreground/70 hover:text-ieee-blue-light transition-colors text-sm">
+                  EMBS Chapter
+                </Link>
+              </li>
+              <li>
+                <Link to="/wie-branch" className="text-primary-foreground/70 hover:text-ieee-blue-light transition-colors text-sm">
+                  WIE Chapter
+                </Link>
+              </li>
             </ul>
           </div>
 
