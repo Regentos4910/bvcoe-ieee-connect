@@ -6,8 +6,8 @@ import EventsSection from "@/components/EventsSection";
 import Footer from "@/components/Footer";
 import { Users, Lightbulb, BookOpen, Rocket, Code, Cpu } from "lucide-react";
 
-import member1 from "@/assets/sbmembers/sbsecretary.jpg";
-import member2 from "@/assets/sbmembers/sbsecretary.jpg";
+import member1 from "@/assets/member-1.jpg";
+import member2 from "@/assets/member-2.jpg";
 import member3 from "@/assets/sbmembers/sbsecretary.jpg";
 import member4 from "@/assets/sbmembers/sbtreasurer.jpg";
 import member5 from "@/assets/sbmembers/sbdesign.jpeg";
@@ -15,7 +15,7 @@ import member6 from "@/assets/sbmembers/sbeventmanagment.jpg";
 
 const StudentBranch = () => {
   const studentBranchMembers = [
-    { name: "Shaily Mishra", role: "Chairperson", image: member1, linkedin: "https://www.linkedin.com/in/archanaangel?utm_source=share_via&utm_content=profile&utm_medium=member_android", email: "angelarchana_151@ieee.org" },
+    { name: "Rahul", role: "Chairperson", image: member1, linkedin: "#", email: "angelarchana_151@ieee.org" },
 
     { name: "Abhishek Kumar", role: "Vice Chairperson", image: member2, linkedin: "https://www.linkedin.com/in/abhishek-kumar-37165731b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", email: "vats.abhishek.official@gmail.com" },
 

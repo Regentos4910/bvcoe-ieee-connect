@@ -8,10 +8,11 @@ import { Users, HeartHandshake, Briefcase, Lightbulb, BarChart3, Sparkles } from
 
 import member1 from "@/assets/wiemembers/wiechair.png";
 import member2 from "@/assets/wiemembers/wietreasurer.jpeg";
-import member3 from "@/assets/wiemembers/wietreasurer.jpeg";
-import member4 from "@/assets/wiemembers/wietreasurer.jpeg";
-import member5 from "@/assets/wiemembers/wietreasurer.jpeg";
+import member3 from "@/assets/member-3.jpg";
+import member4 from "@/assets/member-4.jpg";
+import member5 from "@/assets/member-5.jpg";
 import member6 from "@/assets/wiemembers/wietreasurer.jpeg";
+import member7 from "@/assets/member-6.jpg";
 
 const WIEBranch = () => {
   const wieMembers = [
@@ -19,13 +20,15 @@ const WIEBranch = () => {
 
     { name: "Ishika Narayan", role: "WIE Vice Chair", image: member2, linkedin: "https://www.linkedin.com/in/ishika-narayan-1a65072a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", email: "ishikanarayan21@gmail.com" },
 
-    { name: "Sakshi Patel", role: "Mentorship Lead", image: member3, linkedin: "#", email: "sakshi@ieee.org" },
+    { name: "Sakshi Patel", role: "Technical Lead", image: member3, linkedin: "#", email: "sakshi@ieee.org" },
 
     { name: "Ishita Rao", role: "Events Head", image: member4, linkedin: "#", email: "ishita@ieee.org" },
 
-    { name: "Megha Verma", role: "Outreach Coordinator", image: member5, linkedin: "#", email: "megha@ieee.org" },
+    { name: "Megha Verma", role: "Design Lead", image: member5, linkedin: "#", email: "megha@ieee.org" },
 
     { name: "Ameya Nigam", role: "Treasurer", image: member6, linkedin: "https://www.linkedin.com/in/ameyanigam", email: "ameyanigam@gmail.com" },
+
+    { name: "Ameya Nigam", role: "Secretary", image: member7, linkedin: "https://www.linkedin.com/in/ameyanigam", email: "ameyanigam@gmail.com" },
   ];
 
   const events = [

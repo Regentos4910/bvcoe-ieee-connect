@@ -6,18 +6,19 @@ import EventsSection from "@/components/EventsSection";
 import Footer from "@/components/Footer";
 import { Factory, Cpu, Zap, Settings, BarChart3, Wrench } from "lucide-react";
 
-import member1 from "@/assets/iasmembers/iassecretary.jpg";
+import member1 from "@/assets/member-1.jpg";
 import member2 from "@/assets/iasmembers/iasvicechair.jpg";
-import member3 from "@/assets/iasmembers/iassecretary.jpg";
+import member3 from "@/assets/member-2.jpg";
 import member4 from "@/assets/iasmembers/iassecretary.jpg";
-import member5 from "@/assets/iasmembers/iassecretary.jpg";
+import member5 from "@/assets/member-5.jpg";
 import member6 from "@/assets/iasmembers/iastreasurer.jpg";
+import member7 from "@/assets/member-6.jpg"
 
 const IASBranch = () => {
   const iasMembers = [
     { name: "Amit Desai", role: "IAS Chapter Chair", image: member1, linkedin: "#", email: "amit@ieee.org" },
 
-    { name: "Aditya Raj", role: "IAS Vice Chair", image: member1, linkedin: "https://www.linkedin.com/in/aditya-raj-1b9935339?utm_source=share_via&utm_content=profile&utm_medium=member_android", email: "ar098231@gmail.com" },
+    { name: "Aditya Raj", role: "IAS Vice Chair", image: member2, linkedin: "https://www.linkedin.com/in/aditya-raj-1b9935339?utm_source=share_via&utm_content=profile&utm_medium=member_android", email: "ar098231@gmail.com" },
 
     { name: "Karan Mehta", role: "Technical Lead", image: member3, linkedin: "#", email: "karan@ieee.org" },
 
@@ -26,6 +27,8 @@ const IASBranch = () => {
     { name: "Siddharth Rao", role: "Event Lead", image: member5, linkedin: "#", email: "sid@ieee.org" },
 
     { name: "Dipanshu saikia", role: "Treasurer", image: member6, linkedin: "https://www.linkedin.com/in/dipanshu-saikia", email: "saikiadipanshu@gmail.com" },
+
+    { name: "Dipanshu saikia", role: "Design Lead", image: member7, linkedin: "https://www.linkedin.com/in/dipanshu-saikia", email: "saikiadipanshu@gmail.com" },
   ];
 
   const events = [
