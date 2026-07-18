@@ -6,21 +6,26 @@ import EventsSection from "@/components/EventsSection";
 import Footer from "@/components/Footer";
 import { Users, HeartHandshake, Briefcase, Lightbulb, BarChart3, Sparkles } from "lucide-react";
 
-import member1 from "@/assets/member-1.jpg";
-import member2 from "@/assets/member-2.jpg";
-import member3 from "@/assets/member-3.jpg";
-import member4 from "@/assets/member-4.jpg";
-import member5 from "@/assets/member-5.jpg";
-import member6 from "@/assets/member-6.jpg";
+import member1 from "@/assets/wiemembers/wiechair.png";
+import member2 from "@/assets/wiemembers/wietreasurer.jpeg";
+import member3 from "@/assets/wiemembers/wietreasurer.jpeg";
+import member4 from "@/assets/wiemembers/wietreasurer.jpeg";
+import member5 from "@/assets/wiemembers/wietreasurer.jpeg";
+import member6 from "@/assets/wiemembers/wietreasurer.jpeg";
 
 const WIEBranch = () => {
   const wieMembers = [
-    { name: "Ananya Sharma", role: "WIE Chair", image: member1, linkedin: "#", email: "ananya@ieee.org" },
-    { name: "Riya Kulkarni", role: "Vice Chair", image: member2, linkedin: "#", email: "riya@ieee.org" },
+    { name: "Nishu Kumari", role: "WIE Chair", image: member1, linkedin: "https://www.linkedin.com/in/nishu-kumari-203703357", email: "nishukribanasthali006@gmail.com" },
+
+    { name: "Ishika Narayan", role: "WIE Vice Chair", image: member2, linkedin: "https://www.linkedin.com/in/ishika-narayan-1a65072a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", email: "ishikanarayan21@gmail.com" },
+
     { name: "Sakshi Patel", role: "Mentorship Lead", image: member3, linkedin: "#", email: "sakshi@ieee.org" },
+
     { name: "Ishita Rao", role: "Events Head", image: member4, linkedin: "#", email: "ishita@ieee.org" },
+
     { name: "Megha Verma", role: "Outreach Coordinator", image: member5, linkedin: "#", email: "megha@ieee.org" },
-    { name: "Tanvi Joshi", role: "Public Relations Lead", image: member6, linkedin: "#", email: "tanvi@ieee.org" },
+
+    { name: "Ameya Nigam", role: "Treasurer", image: member6, linkedin: "https://www.linkedin.com/in/ameyanigam", email: "ameyanigam@gmail.com" },
   ];
 
   const events = [
@@ -81,8 +86,8 @@ const WIEBranch = () => {
         title="IEEE WIE Chapter"
         subtitle="Women in Engineering"
         description="Advancing women in engineering and technology through leadership, mentorship, networking, and professional development opportunities."
-        primaryAction={{ label: "Join WIE", path: "#" }}
-        secondaryAction={{ label: "Our Initiatives", path: "#" }}
+        primaryAction={{ label: "Join WIE", path: "https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=MEMWIE050" }}
+        secondaryAction={{ label: "View Members", path: "#team" }}
         stats={[
           { icon: <Users className="w-6 h-6" />, value: "60+", label: "Active Members" },
           { icon: <BarChart3 className="w-6 h-6" />, value: "10+", label: "Annual Programs" },
@@ -127,8 +132,9 @@ const WIEBranch = () => {
         </div>
       </section>
 
-      <MemberCarousel title="WIE Chapter Team" members={wieMembers} />
-
+      <section id="team">
+        <MemberCarousel title="WIE Chapter Team" members={wieMembers} />
+       </section>
       <EventsSection title="WIE Events & Programs" events={events} />
 
       {/* Resources Section */}

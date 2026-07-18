@@ -130,7 +130,7 @@ const MemberCarousel = ({ title, members }: MemberCarouselProps) => {
               <button
                 key={index}
                 onClick={() => emblaApi?.scrollTo(index)}
-                className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                className={`w-2 h-2 rounded-full transition-all duration-500 ${
                   selectedIndex === index
                     ? "w-8 bg-primary"
                     : "bg-muted-foreground/30 hover:bg-muted-foreground/50"

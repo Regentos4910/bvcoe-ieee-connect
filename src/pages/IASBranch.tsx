@@ -6,21 +6,26 @@ import EventsSection from "@/components/EventsSection";
 import Footer from "@/components/Footer";
 import { Factory, Cpu, Zap, Settings, BarChart3, Wrench } from "lucide-react";
 
-import member1 from "@/assets/member-1.jpg";
-import member2 from "@/assets/member-2.jpg";
-import member3 from "@/assets/member-3.jpg";
-import member4 from "@/assets/member-4.jpg";
-import member5 from "@/assets/member-5.jpg";
-import member6 from "@/assets/member-6.jpg";
+import member1 from "@/assets/iasmembers/iassecretary.jpg";
+import member2 from "@/assets/iasmembers/iasvicechair.jpg";
+import member3 from "@/assets/iasmembers/iassecretary.jpg";
+import member4 from "@/assets/iasmembers/iassecretary.jpg";
+import member5 from "@/assets/iasmembers/iassecretary.jpg";
+import member6 from "@/assets/iasmembers/iastreasurer.jpg";
 
 const IASBranch = () => {
   const iasMembers = [
     { name: "Amit Desai", role: "IAS Chapter Chair", image: member1, linkedin: "#", email: "amit@ieee.org" },
-    { name: "Riya Shah", role: "Vice Chair", image: member2, linkedin: "#", email: "riya@ieee.org" },
+
+    { name: "Aditya Raj", role: "IAS Vice Chair", image: member1, linkedin: "https://www.linkedin.com/in/aditya-raj-1b9935339?utm_source=share_via&utm_content=profile&utm_medium=member_android", email: "ar098231@gmail.com" },
+
     { name: "Karan Mehta", role: "Technical Lead", image: member3, linkedin: "#", email: "karan@ieee.org" },
-    { name: "Neha Patil", role: "Industry Relations Head", image: member4, linkedin: "#", email: "neha@ieee.org" },
-    { name: "Siddharth Rao", role: "Projects Lead", image: member5, linkedin: "#", email: "sid@ieee.org" },
-    { name: "Tanvi Kulkarni", role: "Events Head", image: member6, linkedin: "#", email: "tanvi@ieee.org" },
+
+    { name: "Lawrence Pandian", role: "Secretary", image: member4, linkedin: "https://www.linkedin.com/in/lawrence-pandian-8b98472a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", email: "lawrencepandian527@gmail.com" },
+
+    { name: "Siddharth Rao", role: "Event Lead", image: member5, linkedin: "#", email: "sid@ieee.org" },
+
+    { name: "Dipanshu saikia", role: "Treasurer", image: member6, linkedin: "https://www.linkedin.com/in/dipanshu-saikia", email: "saikiadipanshu@gmail.com" },
   ];
 
   const events = [
@@ -81,8 +86,8 @@ const IASBranch = () => {
         title="IEEE IAS Chapter"
         subtitle="Industry Applications Society"
         description="Bridging academia and industry through power systems, automation, industrial IoT, and applied engineering solutions."
-        primaryAction={{ label: "Join IAS", path: "#" }}
-        secondaryAction={{ label: "Explore Projects", path: "#" }}
+        primaryAction={{ label: "Join IAS", path: "https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=MEMIA034" }}
+        secondaryAction={{ label: "View Members", path: "#team" }}
         stats={[
           { icon: <Factory className="w-6 h-6" />, value: "35+", label: "IAS Members" },
           { icon: <BarChart3 className="w-6 h-6" />, value: "10+", label: "Industry Projects" },
@@ -97,7 +102,9 @@ const IASBranch = () => {
         vision="To create industry-ready engineers through applied learning and technical excellence."
       />
 
-      <MemberCarousel title="IAS Chapter Team" members={iasMembers} />
+      <section id="team">
+        <MemberCarousel title="IAS Chapter Team" members={iasMembers} />
+      </section>
       <EventsSection title="IAS Events & Workshops" events={events} />
 
       {/* Focus Areas */}

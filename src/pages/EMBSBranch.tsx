@@ -6,21 +6,26 @@ import EventsSection from "@/components/EventsSection";
 import Footer from "@/components/Footer";
 import { HeartPulse, Activity, Microscope, Cpu, BarChart3, Zap } from "lucide-react";
 
-import member1 from "@/assets/member-1.jpg";
-import member2 from "@/assets/member-2.jpg";
-import member3 from "@/assets/member-3.jpg";
-import member4 from "@/assets/member-4.jpg";
-import member5 from "@/assets/member-5.jpg";
-import member6 from "@/assets/member-6.jpg";
+import member1 from "@/assets/embsmembers/embschair.jpg";
+import member2 from "@/assets/embsmembers/embschair.jpg";
+import member3 from "@/assets/embsmembers/embschair.jpg";
+import member4 from "@/assets/embsmembers/embsvicechair.jpg";
+import member5 from "@/assets/embsmembers/embstreasurer.jpg";
+import member6 from "@/assets/embsmembers/embschair.jpg";
 
 const EMBSBranch = () => {
   const embsMembers = [
-    { name: "Rahul Patil", role: "EMBS Chapter Chair", image: member3, linkedin: "#", email: "rahul@ieee.org" },
-    { name: "Sneha Kulkarni", role: "Vice Chair", image: member4, linkedin: "#", email: "sneha@ieee.org" },
-    { name: "Arjun Sharma", role: "Technical Lead", image: member1, linkedin: "#", email: "arjun@ieee.org" },
-    { name: "Ananya Reddy", role: "Research Coordinator", image: member6, linkedin: "#", email: "ananya@ieee.org" },
-    { name: "Priya Deshmukh", role: "Events Head", image: member2, linkedin: "#", email: "priya@ieee.org" },
-    { name: "Aditya Joshi", role: "Outreach Lead", image: member5, linkedin: "#", email: "aditya@ieee.org" },
+    { name: "Archana Angel", role: "Chairperson", image: member1, linkedin: "https://www.linkedin.com/in/archanaangel?utm_source=share_via&utm_content=profile&utm_medium=member_android", email: "angelarchana_151@ieee.org" },
+
+    { name: "Abhishek Kumar", role: "Vice Chairperson", image: member4, linkedin: "https://www.linkedin.com/in/abhishek-kumar-37165731b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", email: "vats.abhishek.official@gmail.com" },
+
+    { name: "Rahul Patil", role: "Secretary", image: member3, linkedin: "#", email: "rahul@ieee.org" },
+
+    { name: "Archita Ojha", role: "Treasurer", image: member5, linkedin: "https://www.linkedin.com/in/archita-ojha-6838592b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", email: "archita.0217@gmail.com" },
+
+    { name: "Aditya Joshi", role: "Technical Head", image: member2, linkedin: "#", email: "aditya@ieee.org" },
+
+    { name: "Ananya Reddy", role: "Events Head", image: member6, linkedin: "#", email: "ananya@ieee.org" },
   ];
 
   const events = [
@@ -81,8 +86,8 @@ const EMBSBranch = () => {
         title="IEEE EMBS Chapter"
         subtitle="Engineering in Medicine and Biology Society"
         description="Advancing healthcare technology through biomedical engineering, signal processing, medical imaging, and AI-driven diagnostics."
-        primaryAction={{ label: "Join EMBS", path: "#" }}
-        secondaryAction={{ label: "Explore Research", path: "#" }}
+        primaryAction={{ label: "Join EMBS", path: "https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=MEMEMB018" }}
+        secondaryAction={{ label: "View Members", path: "#team" }}
         stats={[
           { icon: <HeartPulse className="w-6 h-6" />, value: "40+", label: "EMBS Members" },
           { icon: <BarChart3 className="w-6 h-6" />, value: "12+", label: "Research Projects" },
@@ -127,7 +132,9 @@ const EMBSBranch = () => {
         </div>
       </section>
 
-      <MemberCarousel title="EMBS Chapter Team" members={embsMembers} />
+      <section id="team">
+        <MemberCarousel title="EMBS Chapter Team" members={embsMembers} />
+        </section>
       <EventsSection title="EMBS Events & Workshops" events={events} />
 
       {/* Resources Section */}

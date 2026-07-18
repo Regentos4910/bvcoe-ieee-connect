@@ -69,11 +69,18 @@ const HeroSection = ({
               </Link>
             )}
             {secondaryAction && (
-              <Link to={secondaryAction.path}>
-                <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
-                  {secondaryAction.label}
-                </Button>
-              </Link>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-primary-foreground/20 bg-primary-foreground/5 text-primary-foreground hover:bg-primary-foreground/15 backdrop-blur-sm"
+                onClick={() => {
+                  document.getElementById("team")?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                {secondaryAction.label}
+              </Button>
             )}
           </div>
 

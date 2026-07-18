@@ -6,21 +6,21 @@ import EventsSection from "@/components/EventsSection";
 import Footer from "@/components/Footer";
 import { Users, Award, Calendar } from "lucide-react";
 
-import member1 from "@/assets/member-1.jpg";
-import member2 from "@/assets/member-2.jpg";
-import member3 from "@/assets/member-3.jpg";
-import member4 from "@/assets/member-4.jpg";
-import member5 from "@/assets/member-5.jpg";
-import member6 from "@/assets/member-6.jpg";
+import member1 from "@/assets/sbmembers/sbsecretary.jpg";
+import member2 from "@/assets/sbmembers/sbsecretary.jpg";
+import member3 from "@/assets/sbmembers/sbsecretary.jpg";
+import member4 from "@/assets/sbmembers/sbtreasurer.jpg";
+import member5 from "@/assets/sbmembers/sbsecretary.jpg";
+import member6 from "@/assets/sbmembers/sbeventmanagment.jpg";
 
 const Index = () => {
   const coreMembers = [
-    { name: "Arjun Sharma", role: "Chairperson", image: member1, linkedin: "#", email: "arjun@ieee.org" },
-    { name: "Priya Deshmukh", role: "Vice Chairperson", image: member2, linkedin: "#", email: "priya@ieee.org" },
-    { name: "Rahul Patil", role: "Secretary", image: member3, linkedin: "#", email: "rahul@ieee.org" },
-    { name: "Sneha Kulkarni", role: "Treasurer", image: member4, linkedin: "#", email: "sneha@ieee.org" },
+    { name: "Shaily Mishra", role: "Chairperson", image: member1, linkedin: "https://www.linkedin.com/in/archanaangel?utm_source=share_via&utm_content=profile&utm_medium=member_android", email: "angelarchana_151@ieee.org" },
+    { name: "Abhishek Kumar", role: "Vice Chairperson", image: member2, linkedin: "https://www.linkedin.com/in/abhishek-kumar-37165731b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", email: "vats.abhishek.official@gmail.com" },
+    { name: "Shaily Mishra", role: "Secretary", image: member3, linkedin: "https://www.linkedin.com/in/shaily-mishra-309b2b37b?utm_source=share_via&utm_content=profile&utm_medium=member_android", email: "shailymishra1185@gmail.com" },
+    { name: "Arvind G", role: "Treasurer", image: member4, linkedin: "https://www.linkedin.com/in/arvind4z/", email: "arvind4z@ieee.org" },
     { name: "Aditya Joshi", role: "Technical Head", image: member5, linkedin: "#", email: "aditya@ieee.org" },
-    { name: "Ananya Reddy", role: "Events Head", image: member6, linkedin: "#", email: "ananya@ieee.org" },
+    { name: "Nikita Pujari", role: "Events Head", image: member6, linkedin: "https://www.linkedin.com/in/nikita-pujari-0a5964345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", email: "nikitapujari427@gmail.com" },
   ];
 
   const events = [
