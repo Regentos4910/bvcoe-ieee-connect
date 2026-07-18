@@ -6,26 +6,29 @@ import EventsSection from "@/components/EventsSection";
 import Footer from "@/components/Footer";
 import { Brain, Network, Sparkles, Bot, BarChart3, Zap } from "lucide-react";
 
-import member1 from "@/assets/member-1.jpg";
-import member2 from "@/assets/member-2.jpg";
-import member3 from "@/assets/cismembers/cischair.jpg";
+import member1 from "@/assets/cismembers/cisTreasurer.jpeg";
+import member2 from "@/assets/cismembers/cisVChair.jpeg";
+import member3 from "@/assets/cismembers/cischair.jpeg";
 import member4 from "@/assets/cismembers/cisTechLead.jpeg";
 import member5 from "@/assets/cismembers/cisdesign.jpeg";
 import member6 from "@/assets/cismembers/cissecretary.jpeg";
+import member7 from "@/assets/cismembers/cisEvent.jpg";
 
 const CISBranch = () => {
   const cisMembers = [
-    { name: "Kush Narendra Jain", role: "CIS Chapter Chair", image: member3, linkedin: "https://www.linkedin.com/in/kush-jain-5624a7340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", email: "kushj2003@gmail.com" },
+    { name: "Viraj Makwana", role: "CIS Chapter Chair", image: member3, linkedin: "https://www.linkedin.com/in/viraj-makwana-695612318/", email: "kushj2003@gmail.com" },
 
-    { name: "Sneha Kulkarni", role: "Vice Chair", image: member1, linkedin: "#", email: "sneha@ieee.org" },
-
-    { name: "Meenakshi Kothawade", role: "Technical Lead", image: member4, linkedin: "http://www.linkedin.com/in/meenakshi-kothawade-893078346", email: "meenakshimaheshkothawade@gmail.com" },
+    { name: "Shreehari Kulkarni", role: "Vice Chair", image: member2, linkedin: "https://www.linkedin.com/in/shreehari-kulkarni-183371388/?skipRedirect=true", email: "sneha@ieee.org" },
 
     { name: "Shashank Mishra", role: "Secretary", image: member6, linkedin: "https://www.linkedin.com/in/shashank-mishra-3b8919231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app", email: "Mshashank849@gmail.comMshashank849@gmail.com" },
 
-    { name: "Ishika Narayan", role: "Treasurer", image: member2, linkedin: "https://www.linkedin.com/in/ishika-narayan-1a65072a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", email: "ishikanarayan21@gmail.com" },
+    { name: "Meenakshi Kothawade", role: "Technical Lead", image: member4, linkedin: "http://www.linkedin.com/in/meenakshi-kothawade-893078346", email: "meenakshimaheshkothawade@gmail.com" },
+
+    { name: "Kirshna Lohiya", role: "Treasurer", image: member1, linkedin: "https://www.linkedin.com/in/ishika-narayan-1a65072a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", email: "ishikanarayan21@gmail.com" },
 
     { name: "Payal Kalokhe", role: "Design Lead", image: member5, linkedin: "https://www.linkedin.com/in/payal-kalokhe-a66025362?utm_source=share_via&utm_content=profile&utm_medium=member_android", email: "payalkalokhe2212@gmail.com" },
+     
+    { name: "Sonal Gupta", role: "Event and Managment Head", image: member7, linkedin: "https://www.linkedin.com/in/sonal-gupta-126710308/", email: "#" },
   ];
 
   const events = [

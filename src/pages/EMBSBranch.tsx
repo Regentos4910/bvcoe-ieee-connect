@@ -7,11 +7,12 @@ import Footer from "@/components/Footer";
 import { HeartPulse, Activity, Microscope, Cpu, BarChart3, Zap } from "lucide-react";
 
 import member1 from "@/assets/embsmembers/embschair.jpg";
-import member2 from "@/assets/embsmembers/embschair.jpg";
-import member3 from "@/assets/embsmembers/embschair.jpg";
+import member2 from "@/assets/member-1.jpg";
+import member3 from "@/assets/member-2.jpg";
 import member4 from "@/assets/embsmembers/embsvicechair.jpg";
 import member5 from "@/assets/embsmembers/embstreasurer.jpg";
-import member6 from "@/assets/embsmembers/embschair.jpg";
+import member6 from "@/assets/member-4.jpg";
+import member7 from "@/assets/member-3.jpg";
 
 const EMBSBranch = () => {
   const embsMembers = [
@@ -26,6 +27,7 @@ const EMBSBranch = () => {
     { name: "Aditya Joshi", role: "Technical Head", image: member2, linkedin: "#", email: "aditya@ieee.org" },
 
     { name: "Ananya Reddy", role: "Events Head", image: member6, linkedin: "#", email: "ananya@ieee.org" },
+    { name: "Ananya Reddy", role: "Design Lead", image: member7, linkedin: "#", email: "ananya@ieee.org" },
   ];
 
   const events = [
