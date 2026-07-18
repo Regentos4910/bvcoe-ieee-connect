@@ -8,19 +8,24 @@ import { Brain, Network, Sparkles, Bot, BarChart3, Zap } from "lucide-react";
 
 import member1 from "@/assets/member-1.jpg";
 import member2 from "@/assets/member-2.jpg";
-import member3 from "@/assets/member-3.jpg";
-import member4 from "@/assets/member-4.jpg";
-import member5 from "@/assets/member-5.jpg";
-import member6 from "@/assets/member-6.jpg";
+import member3 from "@/assets/cismembers/cischair.jpg";
+import member4 from "@/assets/cismembers/cisTechLead.jpeg";
+import member5 from "@/assets/cismembers/cisdesign.jpeg";
+import member6 from "@/assets/cismembers/cissecretary.jpeg";
 
 const CISBranch = () => {
   const cisMembers = [
-    { name: "Rahul Patil", role: "CIS Chapter Chair", image: member3, linkedin: "#", email: "rahul@ieee.org" },
-    { name: "Sneha Kulkarni", role: "Vice Chair", image: member4, linkedin: "#", email: "sneha@ieee.org" },
-    { name: "Arjun Sharma", role: "Technical Lead", image: member1, linkedin: "#", email: "arjun@ieee.org" },
-    { name: "Ananya Reddy", role: "Research Coordinator", image: member6, linkedin: "#", email: "ananya@ieee.org" },
-    { name: "Priya Deshmukh", role: "Events Head", image: member2, linkedin: "#", email: "priya@ieee.org" },
-    { name: "Aditya Joshi", role: "Outreach Lead", image: member5, linkedin: "#", email: "aditya@ieee.org" },
+    { name: "Kush Narendra Jain", role: "CIS Chapter Chair", image: member3, linkedin: "https://www.linkedin.com/in/kush-jain-5624a7340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", email: "kushj2003@gmail.com" },
+
+    { name: "Sneha Kulkarni", role: "Vice Chair", image: member1, linkedin: "#", email: "sneha@ieee.org" },
+
+    { name: "Meenakshi Kothawade", role: "Technical Lead", image: member4, linkedin: "http://www.linkedin.com/in/meenakshi-kothawade-893078346", email: "meenakshimaheshkothawade@gmail.com" },
+
+    { name: "Shashank Mishra", role: "Secretary", image: member6, linkedin: "https://www.linkedin.com/in/shashank-mishra-3b8919231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app", email: "Mshashank849@gmail.comMshashank849@gmail.com" },
+
+    { name: "Ishika Narayan", role: "Treasurer", image: member2, linkedin: "https://www.linkedin.com/in/ishika-narayan-1a65072a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", email: "ishikanarayan21@gmail.com" },
+
+    { name: "Payal Kalokhe", role: "Design Lead", image: member5, linkedin: "https://www.linkedin.com/in/payal-kalokhe-a66025362?utm_source=share_via&utm_content=profile&utm_medium=member_android", email: "payalkalokhe2212@gmail.com" },
   ];
 
   const events = [
@@ -81,8 +86,8 @@ const CISBranch = () => {
         title="IEEE CIS Chapter"
         subtitle="Computational Intelligence Society"
         description="Exploring the frontiers of artificial intelligence, neural networks, fuzzy systems, and evolutionary computation. Building intelligent systems for tomorrow."
-        primaryAction={{ label: "Join CIS", path: "#" }}
-        secondaryAction={{ label: "Research Areas", path: "#" }}
+        primaryAction={{ label: "Join CIS", path: "https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=MEMCIS011" }}
+        secondaryAction={{ label: "View Members", path: "#team" }}
         stats={[
           { icon: <Brain className="w-6 h-6" />, value: "50+", label: "CIS Members" },
           { icon: <BarChart3 className="w-6 h-6" />, value: "15+", label: "Research Projects" },
@@ -129,7 +134,9 @@ const CISBranch = () => {
         </div>
       </section>
 
-      <MemberCarousel title="CIS Chapter Team" members={cisMembers} />
+      <section id="team">
+        <MemberCarousel title="CIS Chapter Team" members={cisMembers}/>
+      </section>
 
       <EventsSection title="CIS Events & Workshops" events={events} />
 

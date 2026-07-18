@@ -10,7 +10,12 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "Student Branch", path: "/student-branch" },
+    { name: "Chapters", path: "/chapters" },
     { name: "CIS Branch", path: "/cis-branch" },
+    { name: "EMBS Branch", path: "/embs-branch" },
+    { name: "IAS Branch", path: "/ias-branch" },
+    { name: "WIE Affinity Group", path: "/wie-branch" },
+
   ];
 
   const isActive = (path: string) => location.pathname === path;
